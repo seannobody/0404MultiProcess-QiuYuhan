@@ -110,6 +110,8 @@ class Crawler:
             all_links = self.get_all_links(url)
             for link in all_links:
                 f.write(link+'\n')
+
+# Test Code
 '''
 def main():
     my_crawler = Crawler()
